@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHICKEN KING | المنيو الملكي</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="main-background"></div>
+
+    <div class="cart-trigger" onclick="toggleCart()">
+        <i class="fas fa-shopping-basket"></i>
+        <span id="cart-count">0</span>
+    </div>
+
+    <div id="cart-popup" class="modal-overlay">
+        <div class="cart-window">
+            <span class="close-x" onclick="toggleCart()">&times;</span>
+            <h2 class="gold-text">طلباتك يا ملك</h2>
+            <div id="cart-items-container"></div>
+            <div class="cart-total-section">
+                <h3>الإجمالي: <span id="total-price">0</span> ج.م</h3>
+                <button class="neon-confirm-btn">تأكيد الأوردر 🚀</button>
+            </div>
+        </div>
+    </div>
+
+    <section id="hero" class="page active">
+        <div class="hero-content">
+            <h1 class="giant-title">CHICKEN <span>KING</span></h1>
+            <button class="main-btn" onclick="goToMenu()">اكتشف المنيو</button>
+        </div>
+    </section>
+
+    <section id="menu-page" class="page">
+        <div class="menu-nav">
+            <button class="back-btn-neon" onclick="goToHero()">الرئيسية</button>
+            <h2 class="gold-text">قائمة الـ 20 صنف</h2>
+        </div>
+        <div class="items-grid" id="items-grid"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
