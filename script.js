@@ -2,7 +2,7 @@
 // بيانات الأصناف الـ 20 بصور مضمونة وشغالة 100%
 // بيانات الأصناف الـ 10 بصور شغالين ومضمونين 100%
 const foodItems = [
-    { id: 1, name: "دجاج كينج المقلي", price: 130, img: "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { id: 1, name: "دجاج كينج المقلي", price: 130, img: "https://unsplash.com/photos/fried-chicken-with-dip-P_z_xlMGuEk" },
     { id: 2, name: "برجر السيطرة دبل", price: 165, img: "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600" },
     { id: 3, name: "بيتزا رانش ملكية", price: 190, img: "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=600" },
     { id: 4, name: "بوكس العيلة الكبير", price: 450, img: "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=600" },
