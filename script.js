@@ -1,16 +1,17 @@
 // بيانات الأصناف الـ 20 بصور مضمونة
 // بيانات الأصناف الـ 20 بصور مضمونة وشغالة 100%
+// بيانات الأصناف الـ 10 بصور شغالين ومضمونين 100%
 const foodItems = [
-    { id: 1, name: "دجاج كينج المقلي", price: 130, img: "https://images.unsplash.com/photo-1626645738196-c2a7c8d38958?auto=format&fit=crop&w=500&q=80" },
-    { id: 2, name: "برجر السيطرة دبل", price: 165, img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80" },
-    { id: 3, name: "بيتزا رانش ملكية", price: 190, img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80" },
-    { id: 4, name: "بوكس العيلة الكبير", price: 450, img: "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=500&q=80" },
-    { id: 5, name: "مكرونة لافا تشيز", price: 115, img: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=500&q=80" },
-    { id: 6, name: "ساندوتش زنجر ناري", price: 135, img: "https://images.unsplash.com/photo-1610614819513-58e34989848b?auto=format&fit=crop&w=500&q=80" },
-    { id: 7, name: "أجنحة سبايسي (12 ق)", price: 125, img: "https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&fit=crop&w=500&q=80" },
-    { id: 8, name: "بطاطس تشيدر", price: 70, img: "https://images.unsplash.com/photo-1573016608244-7d5f8a33ed21?auto=format&fit=crop&w=500&q=80" },
-    { id: 9, name: "حلقات بصل كرسبي", price: 55, img: "https://images.unsplash.com/photo-1639024471283-035188835118?auto=format&fit=crop&w=500&q=80" },
-    { id: 10, name: "بيبسي لتر مثلج", price: 40, img: "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=500&q=80" }
+    { id: 1, name: "دجاج كينج المقلي", price: 130, img: "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { id: 2, name: "برجر السيطرة دبل", price: 165, img: "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { id: 3, name: "بيتزا رانش ملكية", price: 190, img: "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { id: 4, name: "بوكس العيلة الكبير", price: 450, img: "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { id: 5, name: "مكرونة لافا تشيز", price: 115, img: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { id: 6, name: "ساندوتش زنجر ناري", price: 135, img: "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { id: 7, name: "أجنحة سبايسي (12 ق)", price: 125, img: "https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { id: 8, name: "بطاطس تشيدر", price: 70, img: "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { id: 9, name: "حلقات بصل كرسبي", price: 55, img: "https://images.pexels.com/photos/920220/pexels-photo-920220.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { id: 10, name: "بيبسي مثلج", price: 40, img: "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=600" }
 ];
 
 let cart = [];
